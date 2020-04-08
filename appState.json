@@ -1,0 +1,126 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "cebaeaa1-3cce-4c72-8f30-b2b4eaa6da98": {
+        "id": "cebaeaa1-3cce-4c72-8f30-b2b4eaa6da98",
+        "parent": null,
+        "name": "Sydney-Indu.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Sydney-Indu.js",
+        "cursor": {
+          "lineNumber": 15,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "SydneyIndu"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigapSoutheast2indunilcaltestinduany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "cebaeaa1-3cce-4c72-8f30-b2b4eaa6da98"
+    ],
+    "currentFileId": "cebaeaa1-3cce-4c72-8f30-b2b4eaa6da98",
+    "resources": {
+      "apigapSoutheast2indunilcaltestinduany": {
+        "name": "apigapSoutheast2indunilcaltestinduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ap-southeast-2",
+          "apiMode": 0,
+          "apiName": "indunilcal",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "test/indu",
+          "resourcePath": "/test/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "qtest",
+          "mode": 0
+        }
+      },
+      "s3as2TestLahiru": {
+        "name": "s3as2TestLahiru",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "ap-southeast-2",
+            "name": "as2-test-lahiru"
+          }
+        }
+      },
+      "snsapSoutheast2testIndu": {
+        "name": "snsapSoutheast2testIndu",
+        "type": "SNS",
+        "config": {
+          "topicMode": 0,
+          "topicName": "testIndu",
+          "topicArn": "arn:aws:sns:ap-southeast-2:318300609668:testIndu",
+          "topicRegion": "ap-southeast-2",
+          "snsType": 0,
+          "topicDisplayName": "IndunilSNS",
+          "subscriptions": []
+        }
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Sydney-Indu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-southeast-2",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1586351374165
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "sydney-indu",
+      "url": "https://github.com/Indunil1992/sydney-indu"
+    }
+  }
+}
